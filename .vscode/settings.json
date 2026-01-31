@@ -1,0 +1,9 @@
+{
+	"editor.tabCompletion": "on",
+	"editor.detectIndentation": false,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "vscode.typescript-language-features",
+	"editor.formatOnPaste": true,
+	"javascript.preferences.quoteStyle": "single",
+	"typescript.preferences.quoteStyle": "single"
+}
