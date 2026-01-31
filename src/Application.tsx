@@ -1,12 +1,16 @@
 import { useState } from 'react'
 import { Dialog } from './components/Dialog'
+import { Button } from './components/Button'
 
 const Application = () => {
 	const [open, setOpen] = useState(false)
 
 	return (<>
 		<h1>Hello World</h1>
-		<button onClick={() => setOpen(true)}>Open Dialog</button>
+		<Button
+			label="Open Dialog"
+			onClick={() => setOpen(true)}
+		/>
 		<Dialog
 			onClose={() => setOpen(false)}
 			open={open}
