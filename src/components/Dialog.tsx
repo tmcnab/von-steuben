@@ -1,3 +1,4 @@
+import { Button } from './Button'
 import './Dialog.css'
 import type { ReactNode } from 'react'
 
@@ -13,7 +14,7 @@ export const Dialog = (props: DialogProps) => {
 		<dialog open={props.open} role='dialog'>
 			<header>
 				<span>{props.title}</span>
-				<button onClick={props.onClose}>x</button>
+				<Button label={`&times;`} onClick={props.onClose} />
 			</header>
 			{props.children}
 		</dialog>
