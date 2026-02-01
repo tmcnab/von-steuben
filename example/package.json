@@ -1,0 +1,9 @@
+{
+	"dependencies": {
+		"von-steuben": "file:.."
+	},
+	"private": true,
+	"scripts": {
+		"start": "von-steuben start ./src"
+	}
+}

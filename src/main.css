@@ -1,0 +1,10 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+	height: 100vh;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 100vw;
+}
